@@ -1,0 +1,181 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: white;
+    margin: 0px;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    width:800px;
+    height: 905px;
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .1);
+    position: absolute;
+    left: 30%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+    .left-column{
+    width: 300px;
+    height:905px;
+    background-color: #181818;
+    position: absolute;
+    left: 5%;
+    z-index: 0;
+    color: white;
+}
+.profile-image img{
+    height: 205px;
+    width: 205px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    top:3%;
+    left: 12%;
+    border:5px   solid #043280;
+}
+.name-header{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    background-color: #043280;
+    bottom: 680px;
+    z-index: 2;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .1);
+}
+.name-header p{
+    color: white;
+    text-align: center;
+}
+.Aboutme{
+    text-align: center;
+}
+.text-box{
+    position: absolute;
+    top: 28%;
+}
+.Aboutme{
+    text-align: center;
+    text-align-last: center;
+}
+.contact-info ul li a{
+    color: white;
+    text-decoration: none;
+}
+.contact-info ul li{
+    display: inline-block;
+}
+.contact-info{
+    padding-top: 20px;
+    font-size: small;
+}
+.mail{
+    height: 30px;
+    width: 30px;
+    background-color: #043280;
+    text-align: center;
+    font-size: larger;
+    border-radius: 50%;
+    position: relative;
+    align-content: center;
+    display: inline-block;
+}
+.phone{
+    height: 30px;
+    width: 30px;
+    background-color: #043280;
+    text-align: center;
+    font-size: larger;
+    border-radius: 50%;
+    position: relative;
+    align-content: center;
+    display: inline-block;
+    
+}
+.linkedin{
+    height: 30px;
+    width: 30px;
+    background-color: #043280;
+    text-align: center;
+    font-size: larger;
+    border-radius: 50%;
+    position: relative;
+    align-content: center;
+    display: inline-block;
+
+}
+.contact-info ul li{
+    padding-bottom: 20px;
+}
+a:hover{
+    border: 2px solid white;
+}
+.language p{
+    height: 40px;
+    width: 85%;
+    position: relative;
+    left: 6.5%;
+    border-width: 2px 4px;
+    border-radius: 40px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid #043280;
+}
+.language li{
+    position: relative;
+    left: 40px;
+}
+.expertise p{
+    height: 40px;
+    width: 85%;
+    position: relative;
+    left: 6.5%;
+    border-width: 2px 4px;
+    border-radius: 40px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid #043280;
+}
+.expertise li{
+    position: relative;
+    left: 40px;
+    padding-bottom: 10px;;
+}
+.right-column{
+    height: 350x;
+    width: 400px;
+    position: relative;
+    left: 43.5%;
+    /* word-wrap: break-word; */
+    padding: 0px;
+    margin: 0px;
+    /* overflow-wrap: break-word; */
+    top: 220px;
+    font-size: small;
+}
+
+.right-box{
+    height: 35px;
+    width: 85%;
+    border-width: 2px 4px;
+    border-radius: 40px;
+    background-color: #043280;
+    color: white;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+}
+button{
+    height: 35px;
+    width: 85%;
+    border-width: 2px 4px;
+    border-radius: 40px;
+    background-color: #043280;
+    color: white;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
