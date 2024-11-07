@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap" rel="stylesheet">
+    <title>Milestone 2</title>
+</head>
+<body>
+    <form id ="resume-form" >
+        <fieldset>
+            <legend>Personal  Information</legend>
+            <label>
+            <p>Name :</p>
+            <input type="text" placeholder="Enter Your Name" id=name required>
+            </label>
+            <label>
+            <p>Email :</p>
+            <input type="email" placeholder="Enter Your Email" id=email required>
+            </label>
+            <label>
+            <p>Phone Number :</p>
+            <input type="number" placeholder="Enter Your Phone Number" id=phone required>
+            </label>
+            <label>
+            <p>LinkedIn :</p>
+            <input type="url" placeholder="Enter Your LinkedIn Address" id=linkedin required>
+            </label>
+        </fieldset>
+        <fieldset>
+                <legend>
+                    Education
+                </legend>
+                <label>
+                    <p>Education:</p>
+                    <textarea placeholder="Enter Your Education"  id="education" rows="5" cols="70" required></textarea>
+                </label>
+        </fieldset>
+        <fieldset>
+            <legend>Experience</legend>
+            <label><p>Experience:</p><textarea placeholder="Enter Your Experience"  id="experience" rows="5" cols="70" required></textarea></label>
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            <label><p>Skills:</p><textarea placeholder="Enter Your Skills"  id="skills" rows="5" cols="70" required></textarea></label>
+        </fieldset>
+        <center>
+        <button type="submit"id="button"><b>Generate Resume</b></button>
+    </center>
+    </form>
+    <center>
+    <div id="resume-display">
+        <script src="script.js">
+
+        </script>
+    </div >
+</center>
+
+</body>
+</html>
